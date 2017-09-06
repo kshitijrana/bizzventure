@@ -1,0 +1,13 @@
+Note: there was another folder called includes in the public folder, I have deleted it and changed all the corresponding entries. i doubt "all". just cross check again
+
+Things to do:
+1. Add front end design to the final.html page
+2. Test the portal extensively (No time though)
+3. Before making any changes to the add_to_database.php file, please add comments about what you're doing
+5. add_to_database.php unsets the session at the last. so if the user will try to go back from final.html, it'll be a huge problem.
+5. find a solution to 5 if possible
+6. delete only those fields in every form where something would be incorrect (if you have time ofcourse)
+
+Before uploading:
+1. change the idea descrption fields limit to 100 in the pattern attribute. Also, change the value to 100 in the check_idea2_variables() and check_idea3_variables() in included_functions.php
+2. oh and, don't forget to delete this file too.
